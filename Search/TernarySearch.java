@@ -1,12 +1,9 @@
 package Search;
 
 import java.util.Arrays;
-//chia mảng thành 3 khoảng và xét key với từng khoảng đã chia.
-//nếu tìm thấy khoảng chứa key thì lặp lại việc chia khoảng
-//điều kiện đầu vào phải là mảng đã sắp xếp
-//độ phức tạp về thời gian của binary nhiều hơn tìm kiếm bậc ba
-// nhưng trong thực tế sluong phép so sánh trong bậc 3 nhiều hơn khiến
-// tìm kiếm bậc 3 chậm hơn tìm kiếm nhị phân
+//chia mảng thành 3 khoảng và xét key với từng khoảng đã chia. Nếu tìm thấy khoảng chứa key thì lặp lại việc chia khoảng
+//điều kiện đầu vào phải là mảng đã sắp xếp độ phức tạp về thời gian của binary nhiều hơn tìm kiếm bậc ba
+// nhưng trong thực tế sluong phép so sánh trong bậc 3 nhiều hơn khiến tìm kiếm bậc 3 chậm hơn tìm kiếm nhị phân
 public class TernarySearch {
     static int ternarySearch(int l, int r, int key, int arr[]) {
         Arrays.sort(arr);

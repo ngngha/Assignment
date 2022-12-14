@@ -1,10 +1,8 @@
 package Search;
 
 import java.util.Arrays;
-//tìm kiếm cấp số nhân, bắt dầu từ vị trí 1 so sánh phần tử đó với x
-// nếu phần tử đó bé hơn hoặc bằng x thì nhân đôi kích thước lên vị trí
-// nếu thấy giá trị phần tử ở vị trí đó lớn hơn x thì dùng tìm kiếm nhị phân
-// tìm từ vị trí kích thước cũ với vị trí vừa so sánh
+//tìm kiếm cấp số nhân, bắt dầu từ vị trí 1 so sánh phần tử đó với x nếu phần tử đó bé hơn hoặc bằng x thì nhân đôi kích thước lên vị trí
+// nếu thấy giá trị phần tử ở vị trí đó lớn hơn x thì dùng tìm kiếm nhị phân tìm từ vị trí kích thước cũ với vị trí vừa so sánh
 //mảng truyền vào phải được sắp xếp
 public class ExponentialSearch {
     static int exponentialSearch(int arr[], int n, int x)

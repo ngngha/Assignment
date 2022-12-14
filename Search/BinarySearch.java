@@ -6,6 +6,7 @@ import java.util.Arrays;
 //từng khoảng đó, chia tiếp cho đến khi tìm thấy
 public class BinarySearch {
     int binarySearch(int arr[], int l, int r, int x) {
+        Arrays.sort(arr);
         if (r >= l) {
             int mid = l+(r-l) / 2;
 //            System.out.println(l);
@@ -26,13 +27,9 @@ public class BinarySearch {
         return -1;
     }
 
-// x=9
     public static void main(String args[]) {
         BinarySearch ob = new BinarySearch();
         int arr[] = {1, 2, 5, 4, -1, 6, 7, 8, 9};
-        System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
         int n = arr.length;
         int x = 9;
         int result = ob.binarySearch(arr, 0, n - 1, x);

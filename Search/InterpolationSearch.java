@@ -11,7 +11,6 @@ public class InterpolationSearch {
         Arrays.sort(arr);
         if (lo <= hi && x >= arr[lo] && x <= arr[hi]) {
             pos = lo + (hi - lo) * (x - arr[lo]) / (arr[hi] - arr[lo]);
-//            System.out.println(pos);
             if (arr[pos] == x)
                 return pos;
 

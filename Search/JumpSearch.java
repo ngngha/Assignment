@@ -28,14 +28,6 @@ public class JumpSearch {
         }
         return -1;
 
-//        while (arr[prev] < x) {
-//            prev++;
-//            if (prev == Math.min(step, n))
-//                return -1;
-//        }
-//        if (arr[prev] == x)
-//            return prev;
-//        return -1;
     }
 
     public static void main(String[] args) {

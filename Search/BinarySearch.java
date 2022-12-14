@@ -9,11 +9,6 @@ public class BinarySearch {
         Arrays.sort(arr);
         if (r >= l) {
             int mid = l+(r-l) / 2;
-//            System.out.println(l);
-//            System.out.println(l+r);
-//            System.out.println(r-l);
-//            System.out.println(l+(r-l));
-//            System.out.println("*****");
 
             if (arr[mid] == x)
                 return mid;

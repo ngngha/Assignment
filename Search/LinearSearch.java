@@ -19,8 +19,7 @@ public class LinearSearch {
             System.out.print(
                     "Element is not present");
         else
-            System.out.print("Element is present at index "
-                    + result);
+            System.out.print("Element is present at index " + result);
     }
 }
 
